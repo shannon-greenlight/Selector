@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Shannon\Dropbox\moog\Selector\selector.sch</source>
+    <date>6/3/2019 9:50:37 AM</date>
+    <tool>Eeschema (5.1.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>selector.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>TLC5916</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlc5916.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">296-24383-5-ND</field>
+      </fields>
+      <libsource lib="Driver_LED" part="TLC5916" description="8-bit constant current LED sink driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFF3D19</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TLC5916</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlc5916.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">296-24383-5-ND</field>
+      </fields>
+      <libsource lib="Driver_LED" part="TLC5916" description="8-bit constant current LED sink driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFF724E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D013871</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D017140</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-cf_cfm.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D01B8BC</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D01C69A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5005-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0270BD</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5005-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D028933</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5005-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D02964E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5005-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D02B5AA</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5005-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D02C4F3</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5005-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D02CF86</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5005-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D02D65F</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5005-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D02DF06</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5005-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D04F0CD</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5005-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D04F0D4</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5005-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D04F0DB</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5005-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D04F0E2</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT2K20CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D05E2D1</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT2K20CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D062775</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-lead/ka/ECEA1EKA470I</datasheet>
+      <fields>
+        <field name="Digi-Key Part">P19582CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D066463</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>.01uF</value>
+      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">BC5136-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D06A032</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>.01uF</value>
+      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>http://www.vishay.com/docs/45171/kseries.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">BC5136-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D075779</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <datasheet>http://datasheets.avx.com/SR-Series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">478-2472-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D097A7B</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0A5E52</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0A6592</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0A6734</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0A6B47</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>PEC11R</value>
+      <footprint>digikey-footprints:Rotary_Encoder_Switched_PEC11R</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">PEC11R-4315F-S0012-ND</field>
+      </fields>
+      <libsource lib="Rotary" part="PEC11R" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0AE271</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">609-3236-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D10DE30</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <datasheet>http://datasheets.avx.com/SR-Series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">478-2472-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D328578</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1_Small">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_LED" part="TLC5916">
+      <description>8-bit constant current LED sink driver</description>
+      <docs>https://www.st.com/resource/en/datasheet/stp08cp05.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC5916</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SDI" type="input"/>
+        <pin num="3" name="CLK" type="input"/>
+        <pin num="4" name="LE" type="input"/>
+        <pin num="5" name="OUT0" type="output"/>
+        <pin num="6" name="OUT1" type="output"/>
+        <pin num="7" name="OUT2" type="output"/>
+        <pin num="8" name="OUT3" type="output"/>
+        <pin num="9" name="OUT4" type="output"/>
+        <pin num="10" name="OUT5" type="output"/>
+        <pin num="11" name="OUT6" type="output"/>
+        <pin num="12" name="OUT7" type="output"/>
+        <pin num="13" name="~OE" type="input"/>
+        <pin num="14" name="SDO" type="output"/>
+        <pin num="15" name="R-EXT" type="passive"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Rotary" part="PEC11R">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">PEC11R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Driver_LED">
+      <uri>C:\Users\Shannon\Dropbox\moog\Selector/Driver_LED.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Rotary">
+      <uri>C:\Users\Shannon\Dropbox\moog\Selector/Rotary.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U1" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="SW1" pin="C"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="10"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="3" name="Net-(R4-Pad1)">
+      <node ref="U2" pin="15"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D12-Pad1)">
+      <node ref="U2" pin="8"/>
+      <node ref="D12" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D11-Pad1)">
+      <node ref="U2" pin="7"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="7" name="Net-(D9-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="8" name="+5V">
+      <node ref="D7" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="U2" pin="16"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="9" name="Net-(C1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="8"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C2-Pad1)">
+      <node ref="J1" pin="7"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad6)">
+      <node ref="U2" pin="14"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad5)">
+      <node ref="U2" pin="13"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad4)">
+      <node ref="U2" pin="4"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad14)">
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="18" name="Net-(D5-Pad1)">
+      <node ref="U1" pin="9"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="20" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="21" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="22" name="Net-(D1-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="24" name="Net-(D8-Pad1)">
+      <node ref="U1" pin="12"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="25" name="Net-(D7-Pad1)">
+      <node ref="U1" pin="11"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D6-Pad1)">
+      <node ref="U1" pin="10"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="27" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="28" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="29" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="30" name="Net-(R1-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="SW1" pin="A"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="31" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="SW1" pin="B"/>
+      <node ref="R5" pin="2"/>
+    </net>
+  </nets>
+</export>

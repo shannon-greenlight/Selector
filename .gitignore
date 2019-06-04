@@ -60,3 +60,4 @@ _notes
 *.bak
 fp-*
 _autosave*
+*bak.*

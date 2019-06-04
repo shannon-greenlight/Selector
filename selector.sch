@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:sputterer-cache
+LIBS:selector-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -52,12 +52,12 @@ $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5D004040
-P 3250 3050
-F 0 "#PWR01" H 3250 2800 50  0001 C CNN
-F 1 "GND" H 3255 2877 50  0000 C CNN
-F 2 "" H 3250 3050 50  0001 C CNN
-F 3 "" H 3250 3050 50  0001 C CNN
-	1    3250 3050
+P 3250 3250
+F 0 "#PWR01" H 3250 3000 50  0001 C CNN
+F 1 "GND" H 3255 3077 50  0000 C CNN
+F 2 "" H 3250 3250 50  0001 C CNN
+F 3 "" H 3250 3250 50  0001 C CNN
+	1    3250 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -107,7 +107,7 @@ $EndComp
 Wire Wire Line
 	3150 2950 3250 2950
 Wire Wire Line
-	3250 2950 3250 3050
+	3250 2950 3250 3150
 Wire Wire Line
 	4450 2550 4450 1300
 Wire Wire Line
@@ -141,8 +141,6 @@ Wire Wire Line
 Wire Wire Line
 	6200 4200 6050 4200
 Wire Wire Line
-	4350 5550 4550 5550
-Wire Wire Line
 	6000 5950 6000 5750
 $Comp
 L power:GND #PWR06
@@ -168,8 +166,6 @@ F 3 "" H 6250 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5400 5650 5300 5650
-Wire Wire Line
-	5300 5650 5300 6600
 Wire Wire Line
 	6000 5550 6250 5550
 $Comp
@@ -547,44 +543,37 @@ L Device:CP1_Small C4
 U 1 1 5D066463
 P 8650 1600
 F 0 "C4" H 8741 1646 50  0000 L CNN
-F 1 "100uF" H 8741 1555 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 8650 1600 50  0001 C CNN
-F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_ml.pdf" H 8650 1600 50  0001 C CNN
-F 4 "1189-3982-ND" H 8650 1600 50  0001 C CNN "Digi-Key Part"
+F 1 "47uF" H 8741 1555 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8650 1600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-lead/ka/ECEA1EKA470I" H 8650 1600 50  0001 C CNN
+F 4 "P19582CT-ND" H 8650 1600 50  0001 C CNN "Digi-Key Part"
 	1    8650 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C1
 U 1 1 5D06A032
-P 4550 6300
-F 0 "C1" H 4642 6346 50  0000 L CNN
-F 1 ".01uF" H 4642 6255 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 4550 6300 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4550 6300 50  0001 C CNN
-F 4 "BC5136-ND" H 4550 6300 50  0001 C CNN "Digi-Key Part"
-	1    4550 6300
+P 3550 3000
+F 0 "C1" H 3642 3046 50  0000 L CNN
+F 1 ".01uF" H 3642 2955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 3550 3000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 3550 3000 50  0001 C CNN
+F 4 "BC5136-ND" H 3550 3000 50  0001 C CNN "Digi-Key Part"
+	1    3550 3000
 	1    0    0    -1  
 $EndComp
-Connection ~ 5300 6600
-Wire Wire Line
-	5300 6600 5300 6800
 $Comp
 L Device:C_Small C2
 U 1 1 5D075779
-P 4100 6300
-F 0 "C2" H 4192 6346 50  0000 L CNN
-F 1 ".01uF" H 4192 6255 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 4100 6300 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 4100 6300 50  0001 C CNN
-F 4 "BC5136-ND" H 4100 6300 50  0001 C CNN "Digi-Key Part"
-	1    4100 6300
+P 3550 3700
+F 0 "C2" H 3642 3746 50  0000 L CNN
+F 1 ".01uF" H 3642 3655 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 3550 3700 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 3550 3700 50  0001 C CNN
+F 4 "BC5136-ND" H 3550 3700 50  0001 C CNN "Digi-Key Part"
+	1    3550 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4100 6400 4100 6600
-Wire Wire Line
-	4100 6600 4550 6600
 Wire Wire Line
 	8300 1500 8300 1300
 Wire Wire Line
@@ -695,20 +684,7 @@ $EndComp
 Wire Wire Line
 	4100 5750 5050 5750
 Wire Wire Line
-	4100 6200 4100 5750
-Connection ~ 4100 5750
-Wire Wire Line
 	4350 5550 4350 5300
-Wire Wire Line
-	4550 5550 4550 6200
-Connection ~ 4550 5550
-Wire Wire Line
-	4550 5550 4700 5550
-Wire Wire Line
-	4550 6400 4550 6600
-Connection ~ 4550 6600
-Wire Wire Line
-	4550 6600 5300 6600
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J1
 U 1 1 5D10DE30
@@ -757,7 +733,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 2750 4450 4800
 Wire Wire Line
-	4350 2850 3150 2850
+	4350 2850 3550 2850
 Wire Wire Line
 	4350 2850 4350 5100
 Wire Wire Line
@@ -771,7 +747,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2850 2400 3500
 Wire Wire Line
-	2400 3500 4100 3500
+	2400 3500 3550 3500
 Wire Wire Line
 	4100 3500 4100 5300
 $Comp
@@ -794,4 +770,44 @@ Text Notes 6500 4400 0    50   ~ 0
 Attach board to front panel using 4 M2.5 nuts. Digi-Key Part # 36-4687-ND
 Text Notes 6500 4250 0    50   ~ 0
 Attach Front Panel to standoffs using 4 M2.5 screws. Digi-Key Part# 36-29331-ND
+Wire Wire Line
+	3550 3100 3550 3150
+Wire Wire Line
+	3550 3150 3250 3150
+Connection ~ 3250 3150
+Wire Wire Line
+	3250 3150 3250 3250
+Wire Wire Line
+	3550 2900 3550 2850
+Connection ~ 3550 2850
+Wire Wire Line
+	3550 2850 3150 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5CF65BB6
+P 3550 3900
+F 0 "#PWR?" H 3550 3650 50  0001 C CNN
+F 1 "GND" H 3555 3727 50  0000 C CNN
+F 2 "" H 3550 3900 50  0001 C CNN
+F 3 "" H 3550 3900 50  0001 C CNN
+	1    3550 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3600 3550 3500
+Connection ~ 3550 3500
+Wire Wire Line
+	3550 3500 4100 3500
+Wire Wire Line
+	3550 3900 3550 3800
+Wire Wire Line
+	5300 5650 5300 6800
+Wire Wire Line
+	4350 5550 4700 5550
+Text Notes 3150 2850 0    50   ~ 0
+A
+Text Notes 2600 2850 0    50   ~ 0
+B
+Text Notes 6500 4550 0    50   ~ 0
+Attach board to controller using cable assy. Digi-Key Part# 3M156030-MC10G-3M156030-3-ND
 $EndSCHEMATC
