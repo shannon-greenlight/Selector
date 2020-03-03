@@ -1,6 +1,6 @@
-update=6/16/2019 6:51:08 AM
+update=2/25/2020 3:25:49 AM
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=C:/Users/Shannon/Dropbox/My Web Sites/GreenfaceLabs/docs/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
